@@ -1,9 +1,10 @@
 import React from 'react';
+import { UserResult } from '../components/users/UserResult';
 
 export const Home = () => {
   return (
     <>
-      <h1 className='text-6xl'>Welcome</h1>
+      <UserResult />
     </>
   );
 };
